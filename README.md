@@ -93,7 +93,7 @@ Use Tkinter sliders to control the hexapod with Dynamixel servos.
 
 # Hexapod Demo
 
-[![Watch the Demo on YouTube](https://img.youtube.com/vi/qQf6xotoeeg/hqdefault.jpg)](https://www.youtube.com/watch?v=qQf6xotoeeg)
+[![Watch the Demo on YouTube](https://img.youtube.com/vi/8T388ddCNac/hqdefault.jpg)](https://www.youtube.com/watch?v=8T388ddCNac)
 
 Click the image above to watch the hexapod robot demo on YouTube.
 
