@@ -4,8 +4,8 @@ import time
 import math
 import numpy as np
 import threading
-from hexapod_dynamixel.lib.servo import *
-from hexapod_dynamixel.lib.hexapod_constant import *
+from lib.servo import *
+from lib.hexapod_constant import *
 
 start_time = time.time()
 
@@ -32,7 +32,7 @@ ground = p.loadURDF("plane.urdf")
 p.changeDynamics(ground, -1, lateralFriction=1)
 
 # Load your URDF
-robot_id = p.loadURDF("hexapod.urdf", basePosition=[0, 0, 1], useFixedBase=False)
+robot_id = p.loadURDF("models/hexapod.urdf", basePosition=[0, 0, 1], useFixedBase=False)
 # Simulation parameters
 width = 512
 height = 512

@@ -3,8 +3,8 @@ import math
 import numpy as np
 import threading
 from tkinter import Tk, Scale, HORIZONTAL
-from hexapod_dynamixel.lib.servo import *
-from hexapod_dynamixel.lib.hexapod_constant import *
+from lib.servo import *
+from lib.hexapod_constant import *
 
 start_time = time.time()
 
